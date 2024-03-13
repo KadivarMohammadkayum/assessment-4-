@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* ========= Header Start ========== */
+#header_Part{
+    background-color: #F4511E;
+    color: #ffffff;
+}
+
+#headbtn a:hover{
+    color: #ffffff;
+}
+
+#header_Part ul li{
+    margin-inline: 10px;
+}
+
+.hero_Section h1{
+    font-size: 42px;
+    margin-top: 13vh;
+}
+
+.input-group{
+    margin-bottom: 90px;
+}
+
+.input-group button{
+    background-color: #DC3636;
+}
+
+
+/* ========= Header End ========== */
+
+/* ==== About Company Page Start ====*/
+
+#about_Page{
+    margin-top: 20vh;
+}
+
+.our_Values{
+    background-color: #F6F6F6;
+    padding-top: 80px;
+    min-height: 30vh;
+}
+
+@media only screen and (min-width :320px
+) and (max-width: 600px){
+    h4{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 25px;
+    }
+   
+}
+/* ==== About Company Page end ====*/
+
+
+/* ===== service panel satrt ====== */
+.our_Service{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.our_Service img{
+    width: 40px;
+    aspect-ratio: 1;
+}
+
+.our_Service div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 30px;
+}
+
+@media only screen and (min-width :320px
+) and (max-width: 600px){
+    .our_Service{
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .our_Service div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block: 30px;
+    }
+}
+/* ===== service panel end ====== */
+
+
+/* === porfolio panel start === */
+#portfolio{
+    background-color: #f6f6f6;
+}
+
+#portfolio .info{
+    background-color: #ffffff;
+    margin-inline: 20px;
+}
+
+#portfolio h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+
+#portfolio p{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.5;
+    font-size: 20px;
+}
+
+.city_Info{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.info h6{
+    display: flex;
+    justify-content: center;
+    margin-top: 2svh;
+}
+
+.info p{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.5;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.info img{
+    width: 350px;
+    height: 250px;
+}
+
+@media only screen and (min-width :320px
+) and (max-width: 600px){
+    .city_Info{
+        display: grid;
+        grid-template-columns:  repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+/* === porfolio panel end === */
+
+/* === pricing panel start === */
+.pricing_Menu{
+    padding-bottom: 40px;
+}
+
+.pricing_Menu .card-header{
+    background-color: #F4511E;
+    color: #F6F6F6;
+    font-size: 22px;
+    padding: 20px;
+    letter-spacing: 5;
+    text-align: center;
+}
+
+.pricing_Menu ul li{
+    list-style-type: none;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.pricing_Menu p{
+    margin: auto;
+    font-weight: 600;
+}
+
+.pricing_Menu .btn{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #F4511E;
+}
+
+.pricing_Menu .card{
+    border: 1px solid #F4511E;
+    padding-bottom: 20px;
+}
+/* === pricing panel end === */
+
+/* ===contact panel start */
+
+#contact{
+    background-color: #f6f6f6;
+}
+
+.contact_Form input{
+    width: 49.6%;
+    padding-inline: 10px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    outline: 1px solid gray;
+}
+
+.contact_Form textarea{
+    margin-top: 10px;
+    padding-inline: 10px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    outline: 1px solid gray;
+    padding-top: 5px;
+    height: 15vh;
+}
+
+.contact_Form button{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-block: 15px;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    outline: 1px solid gray;
+    font-weight: 400;
+}
+
